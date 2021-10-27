@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <nav>
+        <img src="myRecipe.png" alt="">
+        
+    <div id="dropdown">
+        <div id="searchBar">
+            <img src="search.png" alt="">
+            <input type="text" id="searchInput" placeholder="Search.." >
+        </div>
+        
+        <div id="dropdownContent">
+   
+        </div>
+    </div>
+
+    </nav>
+
+
+    <div id="recipeContainer">
+        <h2 id="name">Name Goes Here</h2> 
+        <!-- <span id="sourseElem"><strong>Source:</strong><p id="source">Source</p></span> -->
+        
+        <div id="generalInformation">
+            <p>Prep Time<span id="preptime">0m</span></p> 
+            <p>Cook Time<span id="cooktime">0m</span></p> 
+            <p>Servings<span id="servings">0</span></p> 
+        </div>
+        <hr>
+        <h3>Ingredients:</h3>
+        <ul id="ingredients">
+
+        </ul>
+        <h3>Instructions:</h3>
+        <pre id="instructions">Instructions goes here</pre>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="recipe.js"></script>
+</body>
+</html>
